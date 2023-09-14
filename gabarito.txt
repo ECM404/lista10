@@ -1,0 +1,56 @@
+Numero de vertices do digrafo: 3
+0.0  5.0  1.0
+3.0  4.0  7.0
+0.0  0.0  0.0
+
+Peso da Aresta:
+Aresta(0,1): w(A)=5.0
+Aresta(0,2): w(B)=1.0
+Aresta(1,0): w(C)=3.0
+Aresta(1,1): w(D)=4.0
+Aresta(1,2): w(E)=7.0
+
+Grau de Entrada e Grau de Saida:
+v    GE    GS
+0    1     2
+1    2     3
+2    2     0
+
+Sorvedouro e Vertedouro:
+0 nao eh vertedouro
+0 nao eh sorvedouro
+1 nao eh vertedouro
+1 nao eh sorvedouro
+2 nao eh vertedouro
+2 eh sorvedouro
+
+Adjacentes:
+0 nao eh adjacente a 0
+0 eh adjacente a 1
+0 nao eh adjacente a 2
+1 eh adjacente a 0
+1 eh adjacente a 1
+1 nao eh adjacente a 2
+2 eh adjacente a 0
+2 eh adjacente a 1
+2 nao eh adjacente a 2
+
+Warshall:
+1    1    1
+1    1    1
+0    0    0
+
+Alcance:
+0 alcanca 0
+0 alcanca 1
+0 alcanca 2
+1 alcanca 0
+1 alcanca 1
+1 alcanca 2
+2 nao alcanca 0
+2 nao alcanca 1
+2 nao alcanca 2
+
+Passeio:
+0 -> 1 -> 1 -> 0 -> 2
+Peso do passeio: 13.0
